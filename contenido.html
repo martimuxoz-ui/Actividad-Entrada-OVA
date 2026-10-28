@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contenido del OVA: introducción, explicación, videos y preguntas tipo ICFES sobre ecuaciones de primer grado.">
+  <title>Contenido | Ecuaciones de primer grado</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="pagina-contenido">
+
+  <header class="encabezado">
+    <p class="encabezado__marca">Ecuaciones de primer grado</p>
+    <a class="encabezado__enlace" href="index.html">Volver al inicio</a>
+  </header>
+
+  <main class="contenido">
+    <h1 class="contenido__titulo">Aprende a resolver ecuaciones</h1>
+
+    <div class="pestanas">
+      <input class="pestanas__input" type="radio" name="pestana" id="tab-intro" checked>
+      <input class="pestanas__input" type="radio" name="pestana" id="tab-explicacion">
+      <input class="pestanas__input" type="radio" name="pestana" id="tab-videos">
+      <input class="pestanas__input" type="radio" name="pestana" id="tab-icfes">
+
+      <div class="pestanas__nav">
+        <label class="pestanas__etiqueta" for="tab-intro">Introducción</label>
+        <label class="pestanas__etiqueta" for="tab-explicacion">Explicación</label>
+        <label class="pestanas__etiqueta" for="tab-videos">Videos</label>
+        <label class="pestanas__etiqueta" for="tab-icfes">Preguntas ICFES</label>
+      </div>
+
+      <div class="pestanas__paneles">
+
+        <!-- Panel 1: Introducción -->
+        <section class="panel" id="panel-intro">
+          <h2 class="panel__titulo">Introducción</h2>
+          <p>Imagina una balanza en equilibrio. Si en un platillo hay una caja con un peso desconocido y 2 pesas, y en el otro hay 5 pesas, ¿cuánto pesa la caja? Esa pregunta es una <strong>ecuación</strong>.</p>
+          <img class="panel__imagen" src="img/balanza.svg" alt="Balanza en equilibrio que representa la ecuación x + 2 = 5" width="400" height="320">
+          <h3 class="panel__subtitulo">Al terminar este OVA podrás</h3>
+          <ul class="lista">
+            <li>Reconocer una ecuación de primer grado con una incógnita.</li>
+            <li>Resolverla usando operaciones inversas.</li>
+            <li>Plantear una ecuación a partir de un problema cotidiano.</li>
+          </ul>
+          <h3 class="panel__subtitulo">Cómo usarlo</h3>
+          <p>Recorre las pestañas en orden: lee la explicación, mira los videos y al final pon a prueba lo aprendido con las preguntas tipo ICFES.</p>
+        </section>
+
+        <!-- Panel 2: Explicación -->
+        <section class="panel" id="panel-explicacion">
+          <h2 class="panel__titulo">Explicación del tema</h2>
+          <p>Una <strong>ecuación de primer grado</strong> es una igualdad con una letra (la incógnita) cuyo exponente es 1. Resolverla es encontrar el valor de la letra que hace cierta la igualdad.</p>
+          <p class="destacado">Regla de oro: lo que haces en un lado de la igualdad, lo haces también en el otro.</p>
+          <h3 class="panel__subtitulo">Pasos para resolverla</h3>
+          <ol class="lista">
+            <li>Identifica la incógnita (por ejemplo, <em>x</em>).</li>
+            <li>Deja los términos con <em>x</em> a un lado y los números al otro.</li>
+            <li>Usa la operación inversa: la resta deshace la suma y la división deshace la multiplicación.</li>
+            <li>Comprueba reemplazando el valor en la ecuación original.</li>
+          </ol>
+          <img class="panel__imagen panel__imagen--ancha" src="img/pasos-ecuacion.svg" alt="Tres pasos para resolver x + 2 = 5: escribir la ecuación, restar 2 en ambos lados y obtener x = 3" width="640" height="200">
+          <h3 class="panel__subtitulo">Ejemplo resuelto</h3>
+          <p>Resolver <strong>3x − 4 = 11</strong></p>
+          <ol class="lista">
+            <li>Suma 4 en ambos lados: 3x = 15.</li>
+            <li>Divide entre 3 en ambos lados: x = 5.</li>
+            <li>Comprueba: 3 · 5 − 4 = 11. Se cumple.</li>
+          </ol>
+        </section>
+
+        <!-- Panel 3: Videos -->
+        <section class="panel" id="panel-videos">
+          <h2 class="panel__titulo">Videos</h2>
+          <p>Mira los cuatro videos en orden. Toca cada miniatura para verlo en YouTube; se abre en una pestaña nueva.</p>
+          <div class="videos">
+            <article class="video">
+              <h3 class="video__titulo">Video 1. La ecuación como una balanza</h3>
+              <a class="video__miniatura" href="https://www.youtube.com/watch?v=bKeRToPxfqI" target="_blank" rel="noopener">
+                <img class="video__imagen" src="https://img.youtube.com/vi/bKeRToPxfqI/hqdefault.jpg" alt="Miniatura del video 1: la ecuación como una balanza" width="480" height="360" loading="lazy">
+                <span class="video__play">Ver video en YouTube</span>
+              </a>
+            </article>
+            <article class="video">
+              <h3 class="video__titulo">Video 2. Introducción a resolver ecuaciones</h3>
+              <a class="video__miniatura" href="https://www.youtube.com/watch?v=FrJ-tBTpxzo" target="_blank" rel="noopener">
+                <img class="video__imagen" src="https://img.youtube.com/vi/FrJ-tBTpxzo/hqdefault.jpg" alt="Miniatura del video 2: introducción a resolver ecuaciones" width="480" height="360" loading="lazy">
+                <span class="video__play">Ver video en YouTube</span>
+              </a>
+            </article>
+            <article class="video">
+              <h3 class="video__titulo">Video 3. Ecuaciones de primer grado</h3>
+              <a class="video__miniatura" href="https://www.youtube.com/watch?v=IHblqjW8RY8" target="_blank" rel="noopener">
+                <img class="video__imagen" src="https://img.youtube.com/vi/IHblqjW8RY8/hqdefault.jpg" alt="Miniatura del video 3: ecuaciones de primer grado" width="480" height="360" loading="lazy">
+                <span class="video__play">Ver video en YouTube</span>
+              </a>
+            </article>
+            <article class="video">
+              <h3 class="video__titulo">Video 4. Ejemplo paso a paso</h3>
+              <a class="video__miniatura" href="https://www.youtube.com/watch?v=H2Uz1UpqByg" target="_blank" rel="noopener">
+                <img class="video__imagen" src="https://img.youtube.com/vi/H2Uz1UpqByg/hqdefault.jpg" alt="Miniatura del video 4: ejemplo paso a paso" width="480" height="360" loading="lazy">
+                <span class="video__play">Ver video en YouTube</span>
+              </a>
+            </article>
+          </div>
+        </section>
+
+        <!-- Panel 4: Preguntas tipo ICFES -->
+        <section class="panel panel--icfes" id="panel-icfes">
+          <h2 class="panel__titulo">Preguntas tipo ICFES</h2>
+          <p>Tienes un solo intento por pregunta: cuando eliges una opción, ya no puedes cambiarla. Verás al instante si acertaste, la explicación y, al final, tu puntuación.</p>
+
+          <fieldset class="pregunta">
+            <legend class="pregunta__numero">Pregunta 1</legend>
+            <p class="pregunta__enunciado">¿Cuál de las siguientes es una ecuación de primer grado con una incógnita?</p>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p1" id="p1-a"><label class="opcion__etiqueta" for="p1-a">A. x² + 3 = 7</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p1" id="p1-b"><label class="opcion__etiqueta opcion__etiqueta--correcta" for="p1-b">B. 2x + 5 = 11</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p1" id="p1-c"><label class="opcion__etiqueta" for="p1-c">C. 3 + 4 = 7</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p1" id="p1-d"><label class="opcion__etiqueta" for="p1-d">D. x · y = 12</label></div>
+            <p class="explicacion">Respuesta: B. Tiene una sola incógnita con exponente 1. La A tiene x², la C no tiene incógnita y la D tiene dos.</p>
+          </fieldset>
+
+          <fieldset class="pregunta">
+            <legend class="pregunta__numero">Pregunta 2</legend>
+            <p class="pregunta__enunciado">¿Cuál es la solución de la ecuación x + 7 = 15?</p>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p2" id="p2-a"><label class="opcion__etiqueta" for="p2-a">A. x = 22</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p2" id="p2-b"><label class="opcion__etiqueta" for="p2-b">B. x = −8</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p2" id="p2-c"><label class="opcion__etiqueta" for="p2-c">C. x = 7</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p2" id="p2-d"><label class="opcion__etiqueta opcion__etiqueta--correcta" for="p2-d">D. x = 8</label></div>
+            <p class="explicacion">Respuesta: D. Se resta 7 en ambos lados: x = 15 − 7 = 8.</p>
+          </fieldset>
+
+          <fieldset class="pregunta">
+            <legend class="pregunta__numero">Pregunta 3</legend>
+            <p class="pregunta__enunciado">El valor de x que cumple 3x − 4 = 11 es:</p>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p3" id="p3-a"><label class="opcion__etiqueta" for="p3-a">A. x = 3</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p3" id="p3-b"><label class="opcion__etiqueta" for="p3-b">B. x = 4</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p3" id="p3-c"><label class="opcion__etiqueta opcion__etiqueta--correcta" for="p3-c">C. x = 5</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p3" id="p3-d"><label class="opcion__etiqueta" for="p3-d">D. x = 7</label></div>
+            <p class="explicacion">Respuesta: C. Se suma 4: 3x = 15. Se divide entre 3: x = 5.</p>
+          </fieldset>
+
+          <fieldset class="pregunta">
+            <legend class="pregunta__numero">Pregunta 4</legend>
+            <p class="pregunta__enunciado">Juan compró 3 cuadernos del mismo precio y un lápiz de $1.000. En total pagó $10.000. Si x es el precio de cada cuaderno, ¿qué ecuación representa la situación?</p>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p4" id="p4-a"><label class="opcion__etiqueta opcion__etiqueta--correcta" for="p4-a">A. 3x + 1.000 = 10.000</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p4" id="p4-b"><label class="opcion__etiqueta" for="p4-b">B. 3 + x + 1.000 = 10.000</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p4" id="p4-c"><label class="opcion__etiqueta" for="p4-c">C. x + 3.000 = 10.000</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p4" id="p4-d"><label class="opcion__etiqueta" for="p4-d">D. 3(x + 1.000) = 10.000</label></div>
+            <p class="explicacion">Respuesta: A. Los 3 cuadernos cuestan 3x y se suma el lápiz de $1.000 para llegar a $10.000.</p>
+          </fieldset>
+
+          <fieldset class="pregunta">
+            <legend class="pregunta__numero">Pregunta 5</legend>
+            <p class="pregunta__enunciado">Con la ecuación de la pregunta anterior, ¿cuánto cuesta cada cuaderno?</p>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p5" id="p5-a"><label class="opcion__etiqueta" for="p5-a">A. $2.000</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p5" id="p5-b"><label class="opcion__etiqueta" for="p5-b">B. $9.000</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p5" id="p5-c"><label class="opcion__etiqueta opcion__etiqueta--correcta" for="p5-c">C. $3.000</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p5" id="p5-d"><label class="opcion__etiqueta" for="p5-d">D. $3.500</label></div>
+            <p class="explicacion">Respuesta: C. 3x + 1.000 = 10.000, entonces 3x = 9.000 y x = 3.000.</p>
+          </fieldset>
+
+          <fieldset class="pregunta">
+            <legend class="pregunta__numero">Pregunta 6</legend>
+            <p class="pregunta__enunciado">Una balanza está en equilibrio. En un platillo hay una bolsa de x kg y una pesa de 4 kg. En el otro hay 12 kg. ¿Cuánto pesa la bolsa?</p>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p6" id="p6-a"><label class="opcion__etiqueta" for="p6-a">A. 4 kg</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p6" id="p6-b"><label class="opcion__etiqueta" for="p6-b">B. 12 kg</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p6" id="p6-c"><label class="opcion__etiqueta" for="p6-c">C. 16 kg</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p6" id="p6-d"><label class="opcion__etiqueta opcion__etiqueta--correcta" for="p6-d">D. 8 kg</label></div>
+            <p class="explicacion">Respuesta: D. x + 4 = 12, así que x = 12 − 4 = 8.</p>
+          </fieldset>
+
+          <fieldset class="pregunta">
+            <legend class="pregunta__numero">Pregunta 7</legend>
+            <p class="pregunta__enunciado">El doble de un número, disminuido en 3, es igual a 9. ¿Cuál es el número?</p>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p7" id="p7-a"><label class="opcion__etiqueta opcion__etiqueta--correcta" for="p7-a">A. 6</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p7" id="p7-b"><label class="opcion__etiqueta" for="p7-b">B. 3</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p7" id="p7-c"><label class="opcion__etiqueta" for="p7-c">C. 12</label></div>
+            <div class="opcion"><input class="opcion__input" type="radio" name="p7" id="p7-d"><label class="opcion__etiqueta" for="p7-d">D. 9</label></div>
+            <p class="explicacion">Respuesta: A. 2x − 3 = 9, entonces 2x = 12 y x = 6.</p>
+          </fieldset>
+
+          <section class="puntaje">
+            <h3 class="puntaje__titulo">Tu puntuación</h3>
+            <p class="puntaje__texto">Aciertos: <strong class="puntaje__valor"></strong></p>
+          </section>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="pie">
+    <p>Autores: Martin Muñoz, Samuel Márquez, Michael Libreros, Adrian Pérez</p>
+    <p>Ficha: Algoritmia G1</p>
+    <p>Año: 2026</p>
+  </footer>
+
+</body>
+</html>
